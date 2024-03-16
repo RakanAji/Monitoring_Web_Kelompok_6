@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import DeskripsiAlat from './components/DeskripsiAlat';
+import DataMonitoringAlat from './components/DataMonitoringAlat';
+import ProfileTim from './components/ProfileTim';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="#">Monitoring Alat</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#">Deskripsi Alat</Nav.Link>
+          <Nav.Link href="#">Data Monitoring Alat Dengan Blynk</Nav.Link>
+          <Nav.Link href="#">Profile Tim</Nav.Link>
+        </Nav>
+      </Navbar>
+      <div className="container mt-4">
+        <DeskripsiAlat />
+        <DataMonitoringAlat />
+        <ProfileTim />
+      </div>
+      <Footer />
     </div>
   );
 }
