@@ -8,8 +8,12 @@ function DeskripsiAlat() {
       <Card.Body>
         <Card.Title>Deskripsi Alat</Card.Title>
         <Card.Text>
-          Alat penyiraman otomatis
+          Kami membuat Alat penyiraman tanaman otomatis dan pendeteksi hama dengan sensor SoilMoisture dan PIR. 
+          SoilMoisture dihubungkan dengan pompa air
         </Card.Text>
+        <Card.Img src="\assets\img\foto_alip.jpg" alt="Deskripsi Alat" fluid />
+
+          
       </Card.Body>
     </Card>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
 
-function ProfileParaPembuat() {
+function ProfileTim() {
 
   const pembuatData = [
     { nama: 'Rayhan Syailendra', nim: '1101220096', asal: 'Jakarta', jurusan: 'Teknik Telekomunikasi' },
@@ -22,7 +22,7 @@ function ProfileParaPembuat() {
                   <Card>
                     <Card.Body>
                       <Card.Title>{pembuat.nama}</Card.Title>
-                      <Card.Img> src= "./assets/img/foto_alip.jpg"</Card.Img>
+                      
                       <Card.Text>
                         <strong>NIM:</strong> {pembuat.nim}<br />
                         <strong>Asal:</strong> {pembuat.asal}<br />
@@ -40,4 +40,4 @@ function ProfileParaPembuat() {
   );
 }
 
-export default ProfileParaPembuat;
+export default ProfileTim;

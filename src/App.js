@@ -1,30 +1,35 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
 import DeskripsiAlat from './components/DeskripsiAlat';
 import DataMonitoringAlat from './components/DataMonitoringAlat';
 import ProfileTim from './components/ProfileTim';
 import Footer from './components/Footer';
 import "./css/main.css";
+import Navigationbar from './components/Navigationbar';
 
 function App() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#">Monitoring Alat</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#">Deskripsi Alat Penyiraman</Nav.Link>
-          <Nav.Link href="#">Data Monitoring Alat</Nav.Link>
-          <Nav.Link href="#">Profile Tim</Nav.Link>
-        </Nav>
-      </Navbar>
-      <div className="container_mt-4">
+      <div className="myBG">
+        <Navigationbar />
+      </div>
+
+      <div className="deskripsialat">
         <DeskripsiAlat />
+      </div>
+
+      <div className="datamonitoringalat">
         <DataMonitoringAlat />
+      </div>
+
+      <div className="profiletim">
         <ProfileTim />
       </div>
-      <Footer />
+
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
