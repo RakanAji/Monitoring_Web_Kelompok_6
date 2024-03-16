@@ -1,3 +1,13 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+
+.mr-auto{
+    height: 100hh, 30vh;
+    background: rgb(46, 140, 51);
+}
+
+.container_mt-4{
+    height: 100hh, 100vh;
+    background: rgb(167, 230, 161);
+}

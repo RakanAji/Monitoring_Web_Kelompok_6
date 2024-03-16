@@ -4,6 +4,7 @@ import DeskripsiAlat from './components/DeskripsiAlat';
 import DataMonitoringAlat from './components/DataMonitoringAlat';
 import ProfileTim from './components/ProfileTim';
 import Footer from './components/Footer';
+import "./css/main.css";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Nav.Link href="#">Profile Tim</Nav.Link>
         </Nav>
       </Navbar>
-      <div className="container mt-4">
+      <div className="container_mt-4">
         <DeskripsiAlat />
         <DataMonitoringAlat />
         <ProfileTim />
