@@ -22,6 +22,7 @@ function ProfileParaPembuat() {
                   <Card>
                     <Card.Body>
                       <Card.Title>{pembuat.nama}</Card.Title>
+                      <Card.Img> src= "./assets/img/foto_alip.jpg"</Card.Img>
                       <Card.Text>
                         <strong>NIM:</strong> {pembuat.nim}<br />
                         <strong>Asal:</strong> {pembuat.asal}<br />
