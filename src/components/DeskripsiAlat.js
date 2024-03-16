@@ -14,9 +14,9 @@ function DeskripsiAlat() {
           Kami membuat Alat penyiraman tanaman otomatis dan pendeteksi hama dengan sensor SoilMoisture dan PIR. 
           SoilMoisture dihubungkan dengan pompa air
         </Card.Text>
-        <Card.Img src= {logo} alt="Deskripsi Alat"   />
-        <Card.Img src= {soil} alt="Deskripsi Alat"   />
-        <Card.Img src= {pir} alt="Deskripsi Alat"   />
+        <Card.Img src= {logo} alt="Deskripsi Alat" height={300} width={300} />
+        <Card.Img src= {soil} alt="Deskripsi Alat" height={300} width={300}  />
+        <Card.Img src= {pir} alt="Deskripsi Alat"  height={300} width={300} />
 
           
       </Card.Body>
