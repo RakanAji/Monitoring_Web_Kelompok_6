@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Card } from 'react-bootstrap';
 
+
 function DataMonitoringAlat() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get('URL_API_BLYNK')
+    axios.get('http://blynk-cloud.com/Wb4zybm-uxJEu_iLUnI088XDTLijbAgu/update/V0')
       .then(response => {
         setData(response.data);
       })

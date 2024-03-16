@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { Navbar, Nav } from 'react-bootstrap';
+
 
 function DeskripsiAlat() {
   return (
