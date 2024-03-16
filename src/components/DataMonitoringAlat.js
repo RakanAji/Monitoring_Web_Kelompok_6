@@ -23,7 +23,7 @@ function DataMonitoringAlat() {
         <Card.Text>
           {data ? JSON.stringify(data) : 'Loading...'}
         </Card.Text>
-        blom ada ges
+        blom ada 
       </Card.Body>
     </Card>
   );
