@@ -9,10 +9,10 @@ function App() {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#">Monitoring Alat</Navbar.Brand>
+        <Navbar.Brand href="#">Monitoring Alat Penyiraman Otomatis</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#">Deskripsi Alat</Nav.Link>
-          <Nav.Link href="#">Data Monitoring Alat Dengan Blynk</Nav.Link>
+          <Nav.Link href="#">Data Monitoring Alat</Nav.Link>
           <Nav.Link href="#">Profile Tim</Nav.Link>
         </Nav>
       </Navbar>
