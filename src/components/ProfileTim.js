@@ -14,6 +14,7 @@ function ProfileTim() {
   ];
 
   return (
+    <div id='profile'>
     <Row>
       <Col sm={12}>
         <Card>
@@ -41,7 +42,9 @@ function ProfileTim() {
         </Card>
       </Col>
     </Row>
+    </div>
+  
   );
 }
 
-export default ProfileTim;
+export default ProfileTim
