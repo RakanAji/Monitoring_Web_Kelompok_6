@@ -3,13 +3,14 @@ import { Card, Row, Col } from 'react-bootstrap';
 import aji from '../assets/img/foto_aji.jpg';
 import alip from '../foto_alip.jpg';
 import rehan from '../assets/img/rehan.jpg';
+import regi from '../assets/img/foto_regi.jpg'
 
 function ProfileTim() {
 
   const pembuatData = [
     { nama: 'Rayhan Syailendra', nim: '1101220096', asal: 'Jakarta', jurusan: 'Teknik Telekomunikasi', foto:rehan },
     { nama: 'Rakan Aji Pratama', nim: '1101213030', asal: 'Bogor', jurusan: 'Teknik Telekomunikasi', foto:aji },
-    { nama: 'Regina Ramadhani', nim: '1101223238', asal: 'Bekasi', jurusan: 'Teknik Telekomunikasi' },
+    { nama: 'Regina Ramadhani', nim: '1101223238', asal: 'Bekasi', jurusan: 'Teknik Telekomunikasi', foto:regi },
     { nama: 'Yassar Ahmad Alif', nim: '1101223382', asal: 'Jawa', jurusan: 'Teknik Telekomunikasi', foto:alip },
   ];
 
