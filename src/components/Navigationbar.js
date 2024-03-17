@@ -7,11 +7,11 @@ const Navigationbar = () => {
   return (
     <div>
       <Navbar  className="navigation-bar"> 
-        <Navbar.Brand href="/">SMART PLANT</Navbar.Brand>
+        <Navbar.Brand href="/" style={{marginRight: '150px'}}>SMART PLANT</Navbar.Brand>
         <Nav >
           
-          <Nav.Link href="#deskripsialat" style={{fontSize: 25}}>Deskripsi Alat </Nav.Link> 
-          <Nav.Link href="#datamonitor" style={{fontSize: 25}}>Data Monitoring Alat</Nav.Link>
+          <Nav.Link href="#deskripsialat" style={{fontSize: 25, marginRight: '150px'}}>Deskripsi Alat </Nav.Link> 
+          <Nav.Link href="#datamonitor" style={{fontSize: 25, marginRight: '150px'}}>Data Monitoring Alat</Nav.Link>
           <Nav.Link href="#profile" style={{fontSize: 25}}>Profile Tim</Nav.Link>
         </Nav>
       </Navbar>
