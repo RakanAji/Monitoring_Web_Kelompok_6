@@ -57,19 +57,18 @@ const DataMonitoringAlat = () => {
   }, []);
 
   return (
-    <div id='datamonitor'>
+    <div id='datamonitor' style={{ padding: '20px' }}>
       <Card>
-      <Card.Body>
-      <Card.Title>Data Monitoring Alat</Card.Title>
-      <Card.Text>
-        <p>Soil Moisture: {moisture}</p>
-          <p>Motion Detected at: {motionStart} </p>
-          <p>Motion Ended at: {motionEnd} </p>
-      </Card.Text>
-      </Card.Body>
+        <Card.Body>
+          <Card.Title style={{ fontSize: '24px', marginBottom: '20px' }}>Data Monitoring Alat</Card.Title>
+          <div>
+            <p style={{ fontSize: '18px', marginBottom: '10px' }}>Soil Moisture: {moisture}</p>
+            <p style={{ fontSize: '18px', marginBottom: '10px' }}>Motion Detected at: {motionStart} </p>
+            <p style={{ fontSize: '18px', marginBottom: '10px' }}>Motion Ended at: {motionEnd} </p>
+          </div>
+        </Card.Body>
       </Card>
     </div>
-  
   );
 }
 
