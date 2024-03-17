@@ -9,23 +9,23 @@ import Navigationbar from './components/Navigationbar';
 function App() {
   return (
     <div>
-      <div className="myBG">
+      <div >
         <Navigationbar />
       </div>
 
-      <div className="deskripsialat">
+      <div >
         <DeskripsiAlat />
       </div>
 
-      <div className="datamonitoringalat">
+      <div >
         <DataMonitoringAlat />
       </div>
 
-      <div className="profiletim">
+      <div >
         <ProfileTim />
       </div>
 
-      <div className="footer">
+      <div >
         <Footer />
       </div>
     </div>

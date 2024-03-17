@@ -1,23 +1,22 @@
 import { Navbar, Nav } from "react-bootstrap"
 import React from 'react';
-
+import "../css/main.css";
 
 
 const Navigationbar = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#">Monitoring Alat</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#deskripsialat">Deskripsi Alat </Nav.Link>
-          <Nav.Link href="#datamonitor">Data Monitoring Alat</Nav.Link>
-          <Nav.Link href="#profile">Profile Tim</Nav.Link>
+      <Navbar  className="navigation-bar"> 
+        <Navbar.Brand href="/">SMART PLANT</Navbar.Brand>
+        <Nav >
           
+          <Nav.Link href="#deskripsialat" style={{fontSize: 25}}>Deskripsi Alat </Nav.Link> 
+          <Nav.Link href="#datamonitor" style={{fontSize: 25}}>Data Monitoring Alat</Nav.Link>
+          <Nav.Link href="#profile" style={{fontSize: 25}}>Profile Tim</Nav.Link>
         </Nav>
       </Navbar>
-    
     </div>
-  )
-}
+  );
+};
 
 export default Navigationbar

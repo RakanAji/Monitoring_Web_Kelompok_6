@@ -2,15 +2,15 @@
     font-family: "Poppins", sans-serif;
 }
 
-.mr-auto{
+/* .mr-auto{
     height: 100hh, 30vh;
     background: rgb(46, 140, 51);
-}
+} */
 
-.container_mt-4{
+/* .container_mt-4{
     height: 100hh, 100vh;
     background: rgb(167, 230, 161);
-}
+} */
 
 
 /* .deskripsialat{
@@ -23,3 +23,20 @@
     height: 100hh, 100vh;
     background: rgb(167, 230, 161);
 } */
+
+/* main.css */
+.navigation-bar {
+    background-color: #1cec15; /* Warna latar belakang */
+  }
+  
+.navigation-bar .navbar-brand {
+    font-size: 3rem; /* Ukuran font untuk brand */
+  }
+  
+.nav-link {
+    font-size: 3rem;
+  }
+  
+.nav-link:hover {
+    color: #ffc107; 
+  }
