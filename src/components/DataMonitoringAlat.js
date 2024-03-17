@@ -62,8 +62,8 @@ const DataMonitoringAlat = () => {
         <Card.Title>Data Monitoring Alat</Card.Title>
         <Card.Text>
           <p>Soil Moisture: {moisture}</p>
-          <p>Motion Detected at: {motionStart} sec</p>
-          <p>Motion Ended at: {motionEnd} sec</p>
+          <p>Motion Detected at: {motionStart} </p>
+          <p>Motion Ended at: {motionEnd} </p>
         </Card.Text>
       </Card.Body>
     </Card>
