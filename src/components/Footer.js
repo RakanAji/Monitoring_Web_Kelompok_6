@@ -5,7 +5,7 @@ function Footer() {
   return (
     <Navbar fixed="bottom" bg="dark" variant="dark">
       <Navbar.Text>
-        © 2024 Monitoring Alat
+          Monitoring Web Kelompok 6
       </Navbar.Text>
     </Navbar>
   );
