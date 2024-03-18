@@ -73,12 +73,17 @@
   
   /* Media query untuk mengatur tata letak dan gaya navigasi saat mode responsif */
   @media (max-width: 991.98px) {
+<<<<<<< Updated upstream
     .navbar-nav .nav-link .mr-auto {
+=======
+    .navbar-nav .nav-link {
+>>>>>>> Stashed changes
       margin-right: 0; /* Menghapus margin kanan pada setiap link navbar */
       margin-bottom: 10px; /* Menambah margin bawah pada setiap link navbar */
       font-size: 18px; /* Mengurangi ukuran font pada setiap link navbar */
     }
   }
+<<<<<<< Updated upstream
 
   /* Media queries untuk iPad Pro */
 @media (max-width: 1366px) {
@@ -107,5 +112,7 @@
     }
   }
 
+=======
+>>>>>>> Stashed changes
   
   

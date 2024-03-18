@@ -57,7 +57,11 @@ const DataMonitoringAlat = () => {
   }, []);
 
   return (
+<<<<<<< Updated upstream
     <div id='datamonitor' className='container' style={{ padding: '20px', marginTop:'150px', marginBottom:'400px' }}>
+=======
+    <div id='datamonitor' className='container' style={{ padding: '20px' }}>
+>>>>>>> Stashed changes
       <Card>
         <Card.Body >
           <Card.Title style={{ fontSize: '24px', marginBottom: '20px' }}>Data Monitoring Alat</Card.Title>
