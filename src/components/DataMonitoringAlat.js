@@ -57,9 +57,9 @@ const DataMonitoringAlat = () => {
   }, []);
 
   return (
-    <div id='datamonitor' style={{ padding: '20px' }}>
+    <div id='datamonitor' className='container' style={{ padding: '20px', marginTop:'150px', marginBottom:'400px' }}>
       <Card>
-        <Card.Body>
+        <Card.Body >
           <Card.Title style={{ fontSize: '24px', marginBottom: '20px' }}>Data Monitoring Alat</Card.Title>
           <div>
             <p style={{ fontSize: '18px', marginBottom: '10px' }}>Soil Moisture: {moisture}</p>

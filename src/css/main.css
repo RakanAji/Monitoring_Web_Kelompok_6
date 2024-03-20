@@ -40,3 +40,72 @@
 .nav-link:hover {
     color: #ffc107; 
   }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /* Untuk menyembunyikan navbar toggle saat mode responsif */
+.navbar-toggler {
+    border: none;
+  }
+  
+  /* Untuk menambahkan margin kanan pada setiap link navbar */
+  .navbar-nav .nav-link {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  /* Media query untuk mengatur tata letak dan gaya navigasi saat mode responsif */
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+      margin-right: 0; /* Menghapus margin kanan pada setiap link navbar */
+      margin-bottom: 10px; /* Menambah margin bawah pada setiap link navbar */
+      font-size: 18px; /* Mengurangi ukuran font pada setiap link navbar */
+    }
+  }
+
+  /* Media queries untuk iPad Pro */
+@media (max-width: 1366px) {
+    .container .content{
+      margin-right: 70px; /* Menghapus margin kanan pada setiap link navbar */
+      margin-bottom: 10px; /* Menambah margin bawah pada setiap link navbar */
+      font-size: 23px; 
+    }
+    .mr-auto {
+      margin-right: 10px; /* Menghapus margin kanan pada setiap link navbar */
+      margin-bottom: 10px; /* Menambah margin bawah pada setiap link navbar */
+      margin-left: 7px;
+      font-size: 25px;
+      font-weight: bold; 
+    }
+/* CSS yang ingin Anda terapkan untuk iPad Pro */
+}
+
+@media (max-width: 1920px) {
+    .mr-auto {
+      margin-right: 0; /* Menghapus margin kanan pada setiap link navbar */
+      margin-left: 20px;
+      margin-bottom: 10px; /* Menambah margin bawah pada setiap link navbar */
+      font-size: 22px; /* Mengurangi ukuran font pada setiap link navbar */
+      font-weight: bold;
+    }
+  }
+
+  
+  

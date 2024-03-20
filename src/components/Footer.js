@@ -4,7 +4,7 @@ import { Navbar } from 'react-bootstrap';
 function Footer() {
   return (
     <Navbar fixed="bottom" bg="dark" variant="dark">
-      <Navbar.Text>
+      <Navbar.Text style={{marginLeft:'10px'}}>
           Monitoring Web Kelompok 6
       </Navbar.Text>
     </Navbar>

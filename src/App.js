@@ -8,28 +8,18 @@ import Navigationbar from './components/Navigationbar';
 
 function App() {
   return (
-    <div>
-      <div >
-        <Navigationbar />
-      </div>
+    <div className="container">
+      <Navigationbar />
 
-      <div >
+      <div className="content">
         <DeskripsiAlat />
-      </div>
-
-      <div >
         <DataMonitoringAlat />
-      </div>
-
-      <div >
         <ProfileTim />
       </div>
 
-      <div >
-        <Footer />
-      </div>
+      <Footer />
     </div>
   )
 }
 
-export default App
+export default App;

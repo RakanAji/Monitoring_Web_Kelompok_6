@@ -3,7 +3,7 @@ import { Card, Row, Col } from 'react-bootstrap';
 import aji from '../assets/img/foto_aji.jpg';
 import alip from '../foto_alip.jpg';
 import rehan from '../assets/img/rehan.jpg';
-import regi from '../assets/img/foto_regi.jpg'
+import regi from '../assets/img/regi.jpg';
 
 function ProfileTim() {
 
@@ -15,7 +15,7 @@ function ProfileTim() {
   ];
 
   return (
-    <div id='profile'>
+    <div id='profile' className='container'>
     <Row>
       <Col sm={12}>
         <Card>
